@@ -8,11 +8,11 @@ import {
   FaWindows,
   FaXbox,
 } from 'react-icons/fa';
-import { Platform } from '../hooks/useGames';
 
 import { BsGlobe } from 'react-icons/bs';
 import { MdPhoneIphone } from 'react-icons/md';
 import { SiNintendo } from 'react-icons/si';
+import { Platform } from '../entities/Platform';
 
 type Props = {
   platforms: Platform[];
